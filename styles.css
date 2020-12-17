@@ -10,13 +10,17 @@ h2 {
   font-family: 'Oranienbaum', serif;
 }
 
+hr {
+  border: 2px solid #CF8E26;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
 p {
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -54,7 +58,7 @@ p {
   transform: translate(-50%, -50%);
   text-align: left; */
   margin: auto;
-  padding: 50px;
+  padding: 110px;
   overflow: auto;
 }
 
