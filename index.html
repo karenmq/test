@@ -2,57 +2,42 @@
 <html lang="en">
   <head>
     <link href="styles.css" rel="stylesheet">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet"> -->
-
+    
+<!--    Barlow Condensed typeface  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&display=swap" rel="stylesheet">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#more").click(function(){
+                $(".content").fadeIn();
+                $(".story").hide();
+            });
+            
+            $("#back").click(function(){
+               $(".story").fadeIn(); 
+               $(".content").fadeOut();
+            });
+        });
+    </script>  
 
     <title>The Light on the Promenade</title>
 
   </head>
 
   <body>
+
       <!-- TITLE -->
       <div class="split left">
         <div class="centered">
-          <h1>The Light on the Promenade</h1>
+          <h1>THE LIGHT <br>ON THE <br>PROMENADE</h1>
           <hr/>
-          <p>Written, designed, and built by Karen Quintanilla</p>
-
-          <!-- AFTER YOU READ -->
-          <!-- <br /><h2>After you read</h2> -->
-
-          <!-- DEAR READER -->
-          <!-- <button type="button" class="collapsible">Dear Reader</button>
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div> -->
-
-          <!-- READING QUESTIONS   -->
-          <!-- <br /><button type="button" class="collapsible">Reading Questions</button>
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div> -->
-
-          <!-- FEEDBACK -->
-          <!-- <br /><button type="button" class="collapsible">Feedback</button>
-          <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-
-          <script src="scripts.js"></script> -->
+            <h2>WRITTEN, DESIGNED, AND BUILT BY <a href="https://karenmq4.wixsite.com/karenmq">KAREN QUINTANILLA</a></h2>
 
         </div>
 
@@ -60,231 +45,305 @@
 
       <div class="split right">
         <div class="centered">
+            <div class="story">
 
-            <p>
-              Towards the end of my life, my head was filled with thoughts of him and of the Promenade. Even the dreams, which had been a sporadic presence for as long as I could remember, were becoming more and more frequent.
-            </p>
+                <p>
+                  Towards the end of my life, my head was filled with thoughts of him and of the Promenade. Even the dreams, which had been a sporadic presence for as long as I could remember, were becoming more and more frequent.
+                </p>
 
-            <p>
-              I used to tell the story of the few times I saw him to my nieces and nephews, who loved it as children, but slowly let go of it as they grew older. The Glowing Ghost was what they’d taken to calling him, though I’d always remembered him as more of a fragment of light than a ghost. With time, he’d become an opaque and distant memory, almost fully forgotten, until recent days revived him in my head.
-            </p>
+                <p>
+                  I used to tell the story of the few times I saw him to my nieces and nephews, who loved it as children, but slowly let go of it as they grew older. The Glowing Ghost was what they’d taken to calling him, though I’d always remembered him as more of a fragment of light than a ghost. With time, he’d become an opaque and distant memory, almost fully forgotten, until recent days revived him in my head.
+                </p>
 
-            <p>
-              On one night, when I was feeling particularly well, I booked a next-day flight to Los Angeles. I left the dogs with my neighbor, and asked a friend to drive me to Seattle-Tacoma for my midday flight.
-            </p>
+                <p>
+                  On one night, when I was feeling particularly well, I booked a next-day flight to Los Angeles. I left the dogs with my neighbor, and asked a friend to drive me to Seattle-Tacoma for my midday flight.
+                </p>
 
-            <p>
-              I spent those two hours in the air sifting through the dusty archives of my memory, recalling the few instances I’d seen him. I must have been so naïve, so unwilling to see and to leave it just as an old story, as forgotten as a sock behind a dryer.
-            </p>
+                <p>
+                  I spent those two hours in the air sifting through the dusty archives of my memory, recalling the few instances I’d seen him. I must have been so naïve, so unwilling to see and to leave it just as an old story, as forgotten as a sock behind a dryer.
+                </p>
 
-            <p>
-              But there had been something about the sun in recent weeks—it felt dimmer, weaker, not quite the heavy end-of-summer sun we were used to—and the full weight of my realization had hit me as I walked under it the other day, straining to feel its warmth, my long-blurred eyes struggling to see in the dull light it cast.
-            </p>
+                <p>
+                  But there had been something about the sun in recent weeks—it felt dimmer, weaker, not quite the heavy end-of-summer sun we were used to—and the full weight of my realization had hit me as I walked under it the other day, straining to feel its warmth, my long-blurred eyes struggling to see in the dull light it cast.
+                </p>
 
-            <p>
-              The Promenade would have the answer; it would show me the truth one final time. It was the least I could do.
-            </p>
+                <p>
+                  The Promenade would have the answer; it would show me the truth one final time. It was the least I could do.
+                </p>
+                
+                <hr class="divider">
 
-            <p align="center">
-              *
-            </p>
+                <p>
+                  One of my earliest memories is driving by the big blue warehouse that was Downey Studios. I must have been about four years old, just coming to, gaping in awe and curiosity at the giant sliver of moon that was painted on the blue star-speckled walls.
+                </p>
 
-            <p>
-              One of my earliest memories is driving by the big blue warehouse that was Downey Studios. I must have been about four years old, just coming to, gaping in awe and curiosity at the giant sliver of moon that was painted on the blue star-speckled walls.
-            </p>
+                <p>
+                  That was the first time I noticed something off about the lot that would, years later, become the Downey Promenade. Our small city of Downey, which was almost Los Angeles and almost Orange County but not quite either, gave the lot a few makeovers before settling for a retail power center. But at the time, it was still in its second iteration as Downey Studios.
+                </p>
 
-            <p>
-              That was the first time I noticed something off about the lot that would, years later, become the Downey Promenade. Our small city of Downey, which was almost Los Angeles and almost Orange County but not quite either, gave the lot a few makeovers before settling for a retail power center. But at the time, it was still in its second iteration as Downey Studios.
-            </p>
+                <p>
+                  Just as our stoplight on the Lakewood Boulevard and Columbia Way intersection turned green, I saw the flicker of a light, a stray beam of sunlight bouncing off skin and hair. A glowing man. He was sitting on the curb, leaning on his elbows as if he’d just fallen and was trying to get back up.
+                </p>
 
-            <p>
-              Just as our stoplight on the Lakewood Boulevard and Columbia Way intersection turned green, I saw the flicker of a light, a stray beam of sunlight bouncing off skin and hair. A glowing man. He was sitting on the curb, leaning on his elbows as if he’d just fallen and was trying to get back up.
-            </p>
+                <p>
+                  I couldn’t tell much about him other than his relative youth and his golden sheen, as if under the glimmer of a giant lamp. No one else was around, so no one else would have seen him. My parents certainly didn’t, even though they were in the car with me. When I would bring it up in later years, they concluded I must have fallen asleep or imagined it.
+                </p>
 
-            <p>
-              I couldn’t tell much about him other than his relative youth and his golden sheen, as if under the glimmer of a giant lamp. No one else was around, so no one else would have seen him. My parents certainly didn’t, even though they were in the car with me. When I would bring it up in later years, they concluded I must have fallen asleep or imagined it.
-            </p>
+                <p>
+                  I think it was then that my dreams started. From time to time, I would have a dream that ended with the sun in its pure nakedness, suspended not on a blue sky, but on the blackness of the void beyond. Each dream took place somewhere different—the beach, a forest, the playground at my school. But the ending was the same each time: I would look up to see the sun in its usual daytime brightness; suddenly, the sky would be pitch black and the air a painful cold. The sun would still be there, but just as a pale buttered circle. No blinding, no warmth. No light. The moment I felt my fingers and toes begin to freeze was the moment I would wake up.
+                </p>
+                
+                <hr class="divider">
 
-            <p>
-              I think it was then that my dreams started. From time to time, I would have a dream that ended with the sun in its pure nakedness, suspended not on a blue sky, but by the blackness of the void beyond. Each dream took place somewhere different—the beach, a forest, the playground at my school. But the ending was the same each time: I would look up to see the sun in its usual daytime brightness; suddenly, the sky would be pitch black and the air a painful cold. The sun would still be there, but just as a pale buttered circle. No blinding, no warmth. No light. The moment I felt my fingers and toes begin to freeze, I would wake up.
-            </p>
+                <p>
+                  I saw him a second time on a warm fuchsia evening, when I was just a few months shy of my eighteenth birthday.
+                </p>
 
-            <p align="center">
-              *
-            </p>
+                <p>
+                  I was walking up Columbia Way towards my house, thinking about soup. By now, the Downey Studios had been roped off for scheduled demolition, and they sat dark and abandoned on the sprawled lot, a rather sad sight in comparison to the sleek Columbia Memorial Space Center that neighbored the deserted studios.
+                </p>
 
-            <p>
-              I saw him a second time on a warm fuchsia evening, when I was just a few months shy of my eighteenth birthday.
-            </p>
+                <p>
+                  Among the dismal backdrop of the empty lot, a shimmer.
+                </p>
 
-            <p>
-              I was walking up Columbia Way towards my house, thinking about soup. By now, the Downey Studios had been roped off for scheduled demolition, and they sat dark and abandoned on the sprawled lot, a rather sad sight in comparison to the sleek Columbia Memorial Space Center that neighbored the deserted studios.
-            </p>
+                <p>
+                  He was sitting on a bench, hands on his knees, smiling at nothing. There was what looked like a white sheet draped over his shoulders and legs. And, without any reasonable explanation I could come up with, he had a faint glow, as if a beam of sunlight was bent to cast itself upon him. A beam of light from a sun that had already dropped into the West.
+                </p>
 
-            <p>
-              Among the dismal backdrop of the empty lot, a shimmer.
-            </p>
+                <p>
+                  I stopped, half afraid and half curious, my pulse quickening and a shiver on my skin despite the humidity. It wouldn’t do to stop on such a deserted street with nighttime approaching. But a feeling of familiarity was there, and I was brought back to that sunny Saturday afternoon in the backseat of my dad’s yellow Nissan, pressing my nose against the window for a better look at the glowing man in front of the Downey Studios.
+                </p>
 
-            <p>
-              He was sitting on a bench, hands on his knees, smiling at nothing. There was what looked like a white sheet draped over his shoulders and legs. And, without any reasonable explanation I could come up with, he had a faint glow about him, as if a beam of sunlight was bent to cast itself upon him. A beam of light from a sun that had already dropped into the West.
-            </p>
+                <p>
+                    I’d almost forgotten about that first time I saw him, similar to the way we forget our first fallen tooth, or the first monster under our bed. <i>You always had a wild imagination</i>, my mom had said. His glow had to be a trick of the light, a heavy coincidence, and nothing more.
+                </p>
 
-            <p>
-              I stopped, half afraid and half curious, my pulse quickening and a shiver on my skin despite the humidity. It wouldn’t do to stop on such a deserted street with nighttime approaching. But a feeling of familiarity was there, and I was brought back to that sunny Saturday afternoon in the backseat of my dad’s yellow Nissan, pressing my nose against the window for a better look at the glowing man in front of the Downey Studios.
-            </p>
+                <p>
+                  He looked up when he saw me stop, a puzzled look in his eyes. “There is a temple nearby,” he said, his voice regal and smooth as bells. &ldquo;Might you take me to it?&rdquo;
+                </p>
 
-            <p>
-              I’d almost forgotten about that first time I saw him, similar to the way we forget our first fallen tooth, or the first monster under our bed. You always had a wild imagination, my mom had said. His glow had to be a trick of the light, a heavy coincidence, and nothing more.
-            </p>
+                <p>
+                  A temple.
+                </p>
 
-            <p>
-              He looked up when he saw me stop, a puzzled look in his eyes. “There is a temple nearby,” he said, his voice regal and smooth as bells. “Might you take me to it?”
-            </p>
+                <p>
+                  In fact, there were two I could think of. There happened to be a Hindu temple three blocks up and, two miles to the west, one would find the Downey Masonic Temple. I wasn’t sure if either was the temple he’d be looking for. At a loss of what to do or say, I pointed up the street in the general direction of both and stated their names. He glanced to where I pointed, turning back to look at me with a confused smile. I felt a soft benevolence emanating from him, warm as his bewildering light, and my tension eased ever so slightly.
+                </p>
 
-            <p>
-              A temple.
-            </p>
+                <p>
+                  &ldquo;My sister. Where could she be?&rdquo; he said quietly, looking off towards the abandoned blue warehouse.
+                </p>
 
-            <p>
-              In fact, there were two I could think of. There happened to be a Hindu temple three blocks up and, two miles to the west, one would find the Downey Masonic Temple. I wasn’t sure if either was the temple he’d be looking for. At a loss of what to do or say, I pointed up the street towards the general direction of both and stated their names. He looked to where I pointed, turning back to look at me with a confused smile. I felt a soft benevolence emanating from him, warm as his bewildering light, and my tension eased ever so slightly.
-            </p>
+                <p>
+                  I resolved him to be a lost soul, and gave him a sad smile as I placed fifty spare cents next to his hand. I felt a twinge of guilt—he did, after all, seem harmless. But with the sun gone and dinner approaching, it would be best to continue home. When I looked back, he’d returned to smiling and staring blankly ahead, beaming against the emerging dusk.
+                </p>
+                
+                <hr class="divider">
 
-            <p>
-              “My sister. Where could she be?” he said quietly, looking off towards the abandoned blue warehouse.
-            </p>
+                <p>
+                  It was winter, and the San Gabriel mountains, which were usually hidden under smog, were clear and sharp in the cold air. It wasn’t as cold as Seattle, but my cheeks still felt the chilling bite. The Promenade stood ahead, and with it, the promise of a hot drink from my favorite caf&eacute;.
+                </p>
 
-            <p>
-              I resolved him to be a lost soul, and gave him a sad smile as I placed fifty spare cents next to his hand. I felt a twinge of guilt—he did, after all, seem harmless. But with the sun gone and dinner approaching, it would be best to continue home. When I looked back, he’d returned to smiling and looking blankly ahead, beaming against the emerging dusk.
-            </p>
+                <p>
+                  The gleam was what caught my eye. He was sitting against a tree, pulling his white makeshift cloak tightly around his shoulders. An electric current of recognition shocked me, and I almost tripped backwards.
+                </p>
 
-            <p align="center">
-              *
-            </p>
+                <p>
+                  I drew in a slow breath and, carefully, walked closer to him. He was feverish and drenched in sweat. It had been almost ten years since I saw him last in the oncoming twilight, yet he hadn’t aged a day. His radiance was almost unrealistic, as if he were a painting.
+                </p>
 
-            <p>
-              It was winter, and the San Gabriel mountains, which were usually hidden under smog, were clear and sharp in the cold air. It wasn’t as cold as Seattle, but my cheeks still felt the chilling bite. The Promenade stood ahead, and with it, the promise of a hot drink from my favorite caf&eacute;. 
-            </p>
+                <p>
+                  His eyes met mine, brows furrowed in worry. &ldquo;My name. I feel it everywhere. Would you take me to the temple?&rdquo;
+                </p>
 
-            <p>
-              The gleam was what caught my eye. He was sitting against a tree, pulling his white makeshift cloak tightly around his shoulders. An electric current of recognition shocked me, and I almost tripped backwards.
-            </p>
+                <p>
+                  It was clear to me then that he was lost, in what way I couldn’t know, but lost nonetheless. Calling an ambulance would do no good, so I stood there uselessly and tried to think of ways to comfort him. I wondered if he recognized me.
+                </p>
 
-            <p>
-              I drew in a slow breath and, carefully, walked closer to him. He was feverish and drenched in sweat. It had been almost ten years since I saw him last in the oncoming twilight, yet he hadn’t aged a day. His radiance was almost unrealistic, as if he were a painting.
-            </p>
+                <p>
+                  &ldquo;Who are you?&rdquo; I asked. &ldquo;I always see you here. Are you lost?&rdquo;
+                </p>
 
-            <p>
-              His eyes met mine, brows furrowed in worry. “My name. I feel it everywhere. Would you take me to the temple?”
-            </p>
+                <p>
+                  I don’t think he heard me, because all he could do was stare and stare back at me. Folks walked in and out of the Space Center, but didn’t seem to see us.
+                </p>
 
-            <p>
-              It was clear to me then that he was lost, in what way I couldn’t know, but lost nonetheless. Calling an ambulance would do no good, so I stood there uselessly and tried to think of ways to comfort him. I wondered if he recognized me.
-            </p>
+                <p>
+                  I sat down next to him and pulled a bottle of water from my bag, placing it next to him. A sadness crept over me as I saw him start to shiver and tuck his nose into his cloak.
+                </p>
 
-            <p>
-              “Who are you?” I asked. “I always see you here. Are you lost?”
-            </p>
+                <p>
+                  &ldquo;Can I help you get home?&rdquo; He didn’t hear me but had seen the offering, and gave me a small, grateful smile. I wanted to ask him more but felt that, even if he gave any answers, they would take some sort of sinister or incomprehensible shape that I wasn’t ready for.
+                </p>
 
-            <p>
-              I don’t think he heard me, because all he could do was stare and stare back at me. Folks walked in and out of the Space Center, but didn’t seem to see us.
-            </p>
+                <p>
+                  I walked back to my car to grab an old blanket, and came back to place it on his shoulders. I decided there was nothing more I could or should do, and got up to head back to my car.
+                </p>
 
-            <p>
-              I sat down next to him and pulled a bottle of water from my bag, placing it next to him. A sadness crept over me as I saw him start to shiver and tuck his nose into his cloak.
-            </p>
+                <p>
+                  I wanted to be ready. I wanted to see the truth there and then for what it was. If I had listened to myself at that time, perhaps things would have turned out differently.
+                </p>
 
-            <p>
-              “Can I help you get home?” He didn’t hear me but had seen the offering, and gave me a small, grateful smile. I wanted to ask him more but felt that, even if he gave any answers, they would take some sort of sinister or incomprehensible shape that I wasn’t ready for.
-            </p>
+                <p>
+                  I glanced over my shoulder to see him looking ahead towards the dying evening light.
+                </p>
+                
+                <hr class="divider">
 
-            <p>
-              I walked back to my car to grab an old blanket, and came back to place it on his shoulders. I decided there was nothing more I could or should do, and got up to head back to my car.
-            </p>
+                <p>
+                  Shortly after that last time, my parents relocated to a small house in Portland. Throughout the years, we would often cross state lines to see each other, but we had no reason to go to Downey anymore.
+                </p>
 
-            <p>
-              I wanted to be ready. I wanted to see the truth there and then for what it was. If I had listened to myself at that time, perhaps things would have turned out differently.
-            </p>
+                <p>
+                  We watched the children of the family grow, chuckling at the way they gasped every time at my story of the Glowing Ghost. I’m sure my parents and brother were amused to see I’d found a way to entertain them, but I never told them just how much truth the story carried. In a way, I’d also convinced myself that it had never happened.
+                </p>
+                
+                <hr class="divider">
 
-            <p>
-              I glanced over my shoulder to see him looking ahead towards the dying evening light.
-            </p>
+                <p>
+                  I landed at LAX at 5:00 PM, and hired a taxi to take me to that first corner of my memory. Lakewood Boulevard and Columbia Way. Keeper of the Columbia Space Center and the ever-changing lot that was now the Downey Promenade, formerly Downey Studios, formerly an industrial site for Boeing and NASA. How many lives had the space lived through? And, at what point did he hear its echo through the centuries, calling out his name?
+                </p>
 
-            <p align="center">
-              *
-            </p>
+                <p>
+                  The air was chillier than I remembered it being for late summer. The driver was wearing gloves, and as we waited in traffic, he told me about the strange draft of winter weather that had come around in the past few weeks.
+                </p>
 
-            <p>
-              Shortly after that last time, my parents relocated to a small house in Portland. Throughout the years, we would often cross state lines to see each other, but we had no reason to go to Downey anymore.
-            </p>
+                <p>
+                  He dropped me off right on time, just as sundown was starting.
+                </p>
 
-            <p>
-              We watched the children of the family grow, chuckling at the way they gasped every time at my story of the Glowing Ghost. I’m sure my parents and brother were amused to see I’d found a way to entertain them, but I never told them just how much truth the story carried. In a way, I’d also convinced myself that it had never happened.
-            </p>
+                <p>
+                  A plaque had been added to the bench that I saw him sitting on so many years ago. The truth had been there, and it made so much sense.
+                </p>
 
-            <p align="center">
-              *
-            </p>
+                <p class="single" align="center">
+                  DEDICATED TO THE HEROES OF THE APOLLO 1<br />
+                  JANUARY 27, 1967
+                </p>
 
-            <p>
-              I landed at LAX at 5:00 PM, and hired a taxi to take me to that first corner of my memory. Lakewood Boulevard and Columbia Way. Keeper of the Columbia Space Center and the ever-changing lot that was now the Downey Promenade, formerly Downey Studios, formerly an industrial site for Boeing and NASA. How many lives had the space lived through? And, at what point did he hear its echo through the centuries, calling out his name?
-            </p>
+                <p>
+                  At the corner heading north was an apartment complex, its name in charming cursive letters on one of its outer walls.
+                </p>
 
-            <p>
-              The air was chillier than I remembered it being for late summer. The driver was wearing gloves, and as we waited in traffic, he told me about the strange draft of winter weather that had come around in the past few weeks.
-            </p>
+                <p class="single" align="center">
+                  APOLLO APARTMENTS
+                </p>
 
-            <p>
-              He dropped me off right on time, just as sundown was starting.
-            </p>
+                <p>
+                  And, just a few steps ahead, a blue street sign marking the road that led into the Promenade.
+                </p>
 
-            <p>
-              A plaque had been added to the bench that I saw him sitting on so many years ago. The truth had been there, and it made so much sense.
-            </p>
+                <p class="single" align="center">
+                  APOLLO WAY
+                </p>
 
-            <p align="center">
-              DEDICATED TO THE HEROES OF THE APOLLO 1 SPACE MISSION<br />
-              FEBRUARY 21, 1967
-            </p>
+                <p>
+                  My years in Downey came rushing back to me. He’d been everywhere. In Apollo Park. At the Apollo Center. In bold black letters on a space capsule replica. Apollo, Apollo, Apollo.
+                </p>
 
-            <p>
-              At the corner heading north was an apartment complex, its name in charming cursive letters on one of its outer walls.
-            </p>
+                <p>
+                  I saw him there, lying on the sidewalk with that same old sheet wrapped around him, his eyes almost fully closed and his breathing shallow, his once incandescent skin now dim. His youth was radiant as ever, with not a wrinkle or grey hair in sight.
+                </p>
 
-            <p align="center">
-              APOLLO APARTMENTS
-            </p>
+                <p>
+                  My knees were now stiff with time and my hips felt the strain of effort, but I was able to kneel down to sit beside him.
+                </p>
 
-            <p>
-              And, just a few steps ahead, a blue street sign marking the road that led into the Promenade.
-            </p>
+                <p>
+                  &ldquo;I know who you are,&rdquo; I whispered to him as he started to fade, just as the sun began setting and a sharp, icy air fell over my shoulders. His eyes were closing, but he gave the faintest of smiles. I grabbed his cold hand with my own frozen fingers, letting him know he wasn’t forgotten.
+                </p>
 
-            <p align="center">
-              APOLLO WAY
-            </p>
+                <p>
+                  &ldquo;I know who you are, Apollo.&rdquo;
+                </p>
+                
+                <br/><button type="button" id="more" class="toggle"><span class="block"></span>MORE</button>
+                
+            </div>
 
-            <p>
-              My years in Downey came rushing back to me. He’d been everywhere. In Apollo Park. In Apollo Way. At the Apollo Center. Apollo, Apollo, Apollo.
-            </p>
+            <!-- AFTER YOU READ -->
+            
+            <div class="content" vis="hide">
 
-            <p>
-              I saw him there, lying on the sidewalk with that same old sheet wrapped around him, his eyes almost fully closed and his breathing shallow, his once incandescent skin now dim. His youth was radiant as ever, with not a wrinkle or grey hair in sight.
-            </p>
+                <!-- DEAR READER -->
+                <button type="button" class="collapsible">DEAR READER</button>
+                <div class="sub">
+                  <p>
+                    &ldquo;The Light on the Promenade&rdquo; is a short story that I first thought of writing in 2017, based on real places in the City of Downey. I was walking to the Marshalls at the Downey Landing shopping center one day, not really thinking about anything in particular. Right outside the store, my eye caught on a small Apollo 11 memorial that I always knew had been there, but never paid much attention to. There are a few sprinkled throughout the center to celebrate Downey's rich space history and contribution to the Apollo space program. 
+                  </p>
+                     
+                  <p>
+                    Browsing through the Marshalls, I lingered on the name of the missions.  
+                  </p>
+                    
+                  <p>
+                    Apollo.
+                  </p>
+                    
+                  <p>
+                    Phoebus Apollo from the Greek myths, the god of light, music, and medicine, among other things. What would he think of these modern day tributes built in his name? 
+                  </p>
+                    
+                  <p>
+                    And that's where the idea was born. A lost deity in the wrong time, whose legacy still lives millennia later, but in a new and different way. 
+                  </p>
+                    
+                  <p>
+                    The story was originally called &ldquo;The Sun on the Promenade.&rdquo; Apollo was associated with the sun, but he was not originally the god of the sun. That would be Helios, a titan god, who was considered to be a sort of literal embodiment of the sun. Over time, Apollo came to be known as a sun god who presided over light, much as his twin sister, Artemis, was associated with the moon, though the original moon goddess was Selene. The old Downey Studios building that I remember, with its huge moon painted on its wall, gave me the perfect opportunity to include Artemis in the story, even though her name isn't mentioned. 
+                  </p>
+                    
+                  <p>
+                    The Apollo 11 command module that landed on the moon and brought the crew back to Earth was polished off and completed for its mission a few blocks from my home in what is today the Downey Promenade. A beautiful replica of the capsule, which is mentioned in the story, lives at the <a href="https://www.columbiaspacescience.org/">Columbia Memorial Space Center</a>.
+                  </p>
+                    
+                  <p>Thank you so much for reading!</p>
+                    
+                  <p>
+                    Sources: <br>
+                      <ul>
+                          <li>Chang, Kenneth. "Two Magical Places That Sent Apollo 11 to the Moon and Back." <i>The New York Times</i>, 2019, <a href="https://www.nytimes.com/2019/07/13/science/apollo-moon-nasa-engineers.html">www.nytimes.com/2019/07/13/science/apollo-moon-nasa-engineers.html</a></li> 
+                          <li>Hamilton, Edith. <i>Mythology</i>. Little, Brown &amp; Company, 1940.</li> 
+                     </ul>
+                  </p>
+                    
+                </div>
 
-            <p>
-              My knees were now stiff with time and my hips felt the strain of effort, but I was able to kneel down to sit beside him.
-            </p>
 
-            <p>
-              “I know who you are,” I whispered to him as he started to fade, just as the sun began setting and a sharp, icy air fell over my shoulders. His eyes were closing, but he gave the faintest of smiles. I grabbed his cold hand with my own frozen fingers, letting him know he wasn’t forgotten.
-            </p>
+                <!-- READING QUESTIONS   -->
+                <br /><button type="button" class="collapsible">READING QUESTIONS</button>
+                <div class="sub">
+                    
+                  <ol>
+                      <li>How do you interpret the ending?</li>
+                      <li>Why do you think Apollo faded? Do you interpret his fading as death, or as something different?</li>
+                      <li>Why do you think it became easier for the narrator to refer to these memories as encounters with the Glowing Ghost?</li>
+                      <li>Do you think there is a significance to the stages of life in which the narrator sees Apollo?</li>
+                      <li>The narrator says, &ldquo;If I had listened to myself at that time, perhaps things would have turned out differently.&rdquo; What do you think would have happened if they'd acknowledged Apollo earlier in the story?</li>
+                      <li>What emotions does the story convey to you?</li>
+                  </ol>
+                
+                </div>
 
-            <p>
-              “I know who you are, Apollo.”
-            </p>
+                  <!-- FEEDBACK -->
+                <br /><button type="button" class="collapsible">FEEDBACK</button>
+                <div class="sub">
+                  <p>
+                      I'd love to hear your thoughts! Please send any feedback on the story or this page over to <a href="mailto:kmqwebdev@gmail.com">kmqwebdev@gmail.com</a>. 
+                  </p>
+                    
+                </div>
+                
+                <br/><button type="button" id="back" class="toggle"><span class="block"></span>BACK TO STORY</button>
+
+            </div>
 
         </div>
 
       </div>
+
+
+      <script src="scripts.js"></script>
 
   </body>
 

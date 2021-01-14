@@ -15,3 +15,4 @@ for (n = 0; n < collapse.length; n++) {
     }
   });
 }
+
